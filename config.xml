@@ -1,23 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.palikogler.hrm"
-        versionCode = "10" 
-        version     = "1.0.0" >
-
-    <!-- versionCode is optional and Android only -->
-
-    <name>Detektor pulzu</name>
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.github.geoaxis.ble" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CordovaBleHelloWorld</name>
     <description>
-        Detektor pulzu
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
-
-    <author href="https://palikogler.sk" email="pavolkogler@gmail.com">
-        Pali Kogler
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
     </author>
-	<preference name="orientation" value="portrait" />
-	<preference name="permissions" value="none" />
-	<preference name="fullscreen" value="true" />
-	<preference name="android-installLocation" value="auto" />
-	<gap:plugin name="com.evothings.ble" version="1.0.0" />
+    <content src="index.html" />
+    <access origin="*" />
 </widget>
